@@ -63,7 +63,7 @@ section {
   position: absolute;
   left: 0;
   top: 0;
-  padding: 3rem 18rem;
+  padding: 1rem 11rem;
 }
 
 .container {
@@ -400,16 +400,24 @@ section {
   padding: 2rem 0;
   text-align: center;
 }
-
+.block{
+    color: indianred;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .portfolios {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 2rem;
+  display: flex;
+  /* grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem; */
   margin-top: 3rem;
+  margin-bottom: 3rem;
+  flex-direction: column;
 }
 .portfolios .portfolio-item {
   position: relative;
   border-radius: 15px;
+  margin-bottom: 3rem;
 }
 .portfolios .portfolio-item img {
   width: 100%;
