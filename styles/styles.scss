@@ -63,7 +63,7 @@ section {
     position: absolute;
     left: 0;
     top: 0;
-    padding: 3rem 18rem;
+    padding: 3rem 11rem;
 }
 
 .container {
@@ -382,7 +382,7 @@ section {
 
 .portfolios {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-gap: 2rem;
     margin-top: 3rem;
     .portfolio-item {
